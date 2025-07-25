@@ -190,26 +190,50 @@
         <div class="container mx-auto max-w-6xl fade-in-up">
             <h2 class="text-4xl font-bold text-center text-blue-400 mb-12">My Recent Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <!-- Project Card 1: Shamsouna E-Commerce App Store -->
-                <div class="bg-gray-700 rounded-2xl shadow-lg border border-gray-600 overflow-hidden hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-                    <img src="https://placehold.co/600x400/1e3a8a/e0e7ff?text=Shamsouna+App" alt="Shamsouna E-Commerce App Store" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Shamsouna E-Commerce App Store</h3>
-                        <p class="text-gray-300 mb-4">
-                            A full-featured e-commerce mobile application developed using Flutter, enabling users to browse and purchase electronic products and request technical repair services. Features include secure authentication, interactive location selection, payment processing (Tap Payments Gateway), order tracking, and a separate Captain app for service providers to manage requests. Inspired by the bidding model used in apps like InDrive.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Flutter</span>
-                            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Google Maps</span>
-                            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">REST APIs</span>
-                            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Tap Payments</span>
-                            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Clean Architecture</span>
-                        </div>
-                        <a href="https://drive.google.com/file/d/1vxyQoI10rhRME0LqL9MPNL-XekFySVAg/view?usp=sharing" target="_blank" class="inline-block bg-blue-500 text-white font-bold py-2 px-6 rounded-full hover:bg-blue-600 transition-colors duration-300 shadow-md">
-                            Watch Demo Video
-                        </a>
-                    </div>
-                </div>
+               <!-- Project Card 1: Shamsouna E-Commerce App Store -->
+<div class="bg-gray-700 rounded-2xl shadow-lg border border-gray-600 overflow-hidden hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+    <img src="https://placehold.co/600x400/1e3a8a/e0e7ff?text=Shamsouna+App" alt="Shamsouna E-Commerce App Store" class="w-full h-48 object-cover">
+    <div class="p-6">
+        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Shamsouna E-Commerce App Store</h3>
+        <p class="text-gray-300 mb-4">
+            A full-featured e-commerce mobile application developed using Flutter, enabling users to browse and purchase electronic products and request technical repair services. Features include secure authentication, interactive location selection, payment processing (Tap Payments Gateway), order tracking, and a separate Captain app for service providers to manage requests. Inspired by the bidding model used in apps like InDrive.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Flutter</span>
+            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Google Maps</span>
+            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">REST APIs</span>
+            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Tap Payments</span>
+            <span class="bg-blue-700 text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded-full">Clean Architecture</span>
+        </div>
+        
+        <!-- Demo Button -->
+        <a href="https://drive.google.com/file/d/1vxyQoI10rhRME0LqL9MPNL-XekFySVAg/view?usp=sharing" target="_blank" class="inline-block bg-blue-500 text-white font-bold py-2 px-6 rounded-full hover:bg-blue-600 transition-colors duration-300 shadow-md">
+            Watch Demo Video
+        </a>
+
+        <!-- Store Buttons -->
+        <div class="flex flex-wrap gap-4 mt-4">
+            <!-- Google Play -->
+            <a href="https://play.google.com/store/apps/details?id=com.app.shamsona.sa" target="_blank"
+                class="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-500 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M3.6 1.4l13.9 10.1L3.6 21.6C3.2 21.3 3 20.8 3 20.2V3.8c0-.6.2-1.1.6-1.4zm15.5 11.2l-2.3 1.7-2.6-1.9 2.6-1.9 2.3 1.7zm1.4-1.1l1.8-1.3c.8-.6.8-1.7 0-2.2L18 3.3l-3.2 2.3 5.7 4.9zm0 2.9l-5.7 4.9L18 20.7l3.3-2.3c.8-.6.8-1.7 0-2.2l-1.8-1.3z"/>
+                </svg>
+                <span>Google Play</span>
+            </a>
+
+            <!-- App Store -->
+            <a href="https://apps.apple.com/eg/app/%D8%B4%D9%85%D8%B3%D9%86%D8%A7/id6476688748" target="_blank"
+                class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M16.365 1.43c0 1.14-.427 2.003-1.282 2.67-.855.665-1.775 1-2.76 1-.1 0-.25-.01-.45-.03-.2-.02-.49-.03-.87-.03-.9 0-1.95.255-3.15.765C5.923 6.316 5 7.743 5 9.67c0 1.12.287 2.073.86 2.86.573.787 1.217 1.353 1.93 1.7-.073.22-.137.432-.19.64-.17.67-.227 1.43-.17 2.29.06.86.253 1.6.58 2.22.327.62.837 1.107 1.53 1.46.693.353 1.42.53 2.18.53.64 0 1.26-.077 1.86-.23.6-.153 1.163-.347 1.69-.58.527-.233.957-.46 1.29-.68.327-.22.62-.437.88-.65.513.44.973.82 1.38 1.14.407.32.76.603 1.06.85.3.247.577.417.83.51.253.093.477.14.67.14.34 0 .667-.057.98-.17.313-.113.633-.307.96-.58.327-.273.61-.57.85-.89.24-.32.4-.65.49-.99.09-.34.133-.67.13-.99-.003-.32-.03-.633-.08-.94-.05-.307-.113-.59-.19-.85a5.19 5.19 0 00-.5-1.07c-.267-.44-.603-.827-1.01-1.16a3.988 3.988 0 00-.94-.55 3.917 3.917 0 00-1.23-.22c-.74 0-1.463.22-2.17.66a3.908 3.908 0 00-1.31 1.25c-.093.12-.207.3-.34.54a1.538 1.538 0 00-.19.45z"/>
+                </svg>
+                <span>App Store</span>
+            </a>
+        </div>
+    </div>
+</div>
+
 
                 <!-- Project Card 2: Bookly App -->
                 <div class="bg-gray-700 rounded-2xl shadow-lg border border-gray-600 overflow-hidden hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
